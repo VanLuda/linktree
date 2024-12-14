@@ -89,7 +89,8 @@ button:hover,
 
 .button.button-ebook {
   color: #fff;
-  background-color: #000;
+  background-color: #282828;
+  border: 1px solid #FFFFFF;
 }
 .button.button-ebook:hover,
 .button.button-ebook:focus {
