@@ -125,18 +125,27 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #2457F5;
+  color: hsl(0, 65%, 50%);
+  transition: all 0.25s ease-in-out;
 }
 a:hover {
-  color: #083BDA; 
+  color: hsl(0, 65%, 55%);
 }
 a:focus {
-  outline: #7AB8FF solid 2px;
+  outline: hsl(0, 65%, 74%); solid 2px;
   border-radius: 2px;
-}         
+}   
+
+footer a {
+    color: hsl(0, 0%, 75%);
+}
+footer a:hover {
+    color: hsl(0, 0%, 100%);
+}
+      
 
 /* Link Color Dark Theme */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   a {
     color: #4899F7;
 }
@@ -147,7 +156,7 @@ a:focus {
   outline: #7AB8FF solid 2px;
   border-radius: 2px;
 }
-}
+} */
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
