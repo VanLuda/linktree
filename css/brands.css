@@ -88,11 +88,11 @@ button:hover,
 }
 
 .button.button-ebook {
-  color: #000;
+  color: #fff;
   background-color: #000;
 }
-.button.button-ebook-checklist:hover,
-.button.button-ebook-checklist:focus {
+.button.button-ebook:hover,
+.button.button-ebook:focus {
   filter: brightness(90%);
 }
 
