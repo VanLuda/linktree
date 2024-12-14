@@ -125,11 +125,20 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #4899F7;
+  color: hsl(0, 65%, 50%);
+  transition: all 0.25s ease-in-out;
 }
 a:hover {
-  color: #7AB8FF;
+  color: hsl(0, 65%, 55%);
 }
+
+footer a {
+    color: hsl(0, 0%, 75%);
+}
+footer a:hover {
+    color: hsl(0, 0%, 100%);
+}
+  
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
