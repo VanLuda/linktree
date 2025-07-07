@@ -99,8 +99,8 @@ button:hover,
 
 /* Homeschool Hive */
 .button-homeschool-hive {
-  --button-text: #ffffff;
-  --button-background: #165dfb;
+  color: #ffffff;
+  background: #165dfb;
 }
 
 /* Amazon */
