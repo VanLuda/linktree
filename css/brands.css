@@ -97,6 +97,12 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Homeschool Hive */
+.button-homeschool-hive {
+  --button-text: #ffffff;
+  --button-background: #165dfb;
+}
+
 /* Amazon */
 .button.button-amazon {
   color: #000000;
